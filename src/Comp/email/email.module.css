@@ -1,0 +1,52 @@
+.main{
+    padding: 7%;
+    background-image: url("../../Images/classroom.jpg");
+    height: 50vh;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    /* opacity: 0.5; */
+    text-align: center ;
+    font-size: 15px;
+}
+.mail{
+    width: 50%;
+    background-image: url("../../Images/mail.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+    width: 80%;
+    background-color: aliceblue;
+    /* margin:2%; */
+    padding: 5%;
+}
+.send{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.send > h3{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    border: 3px solid rgb(207, 41, 108);
+}
+.send > h3:hover{
+    cursor: pointer;
+    transition: ease-in 0.2s;
+    color: aliceblue;
+    background-color: rgb(207, 41, 108);
+}
+.send > input{
+    border: 3px solid rgb(207, 41, 108);
+    padding: 2px;
+    /* border: none; */
+    outline: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+}

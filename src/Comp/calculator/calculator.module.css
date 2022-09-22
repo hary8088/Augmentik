@@ -1,0 +1,61 @@
+.main{
+    padding: 5%;
+}
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.divs{
+    /* background-color: beige; */
+    width: 30%;
+    padding: 15px 5px;
+}
+.divs > h3{
+    font-weight: bolder;
+}
+.divs > select{
+    background-color: rgb(201, 200, 201);
+    padding: 18px 90px;
+    border: none;
+    outline: none;
+    border-radius:20px;
+    color: rgb(36, 152, 188);
+}
+.checkbox{
+    padding-top: 2%;
+    display: flex;
+}
+li > .checkbox{
+    border-radius: 50px;
+}
+.checkbox > li{
+list-style-type: none;
+}
+.slider{
+    width: 75%;
+    border-radius: 20px;
+    background-color: rgb(201, 200, 201);
+    padding: 10px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-right: 5%;
+
+}
+.button1{
+    font-weight: bold   ;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(201, 200, 201);
+}
+.button2{
+    padding: 10px;
+    font-weight: bolder;
+    color: aliceblue;
+    border-radius: 20px;
+    background-color: rgb(207, 88, 20);
+}

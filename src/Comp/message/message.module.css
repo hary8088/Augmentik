@@ -1,0 +1,28 @@
+.main{
+    background-color: rgb(166, 201, 255);
+    padding: 8%;
+}
+.message{
+    border-radius: 25px;
+    padding: 5%;
+    background-image: url("../../Images/manager.jpg");
+    height:70vh;
+    background-size: cover;
+    background-position: center;
+}
+.content1{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.content2{
+    padding-top: 8%;
+}
+.content2 > li{
+    list-style-type: none;
+}
+.content2 > li :nth-child(odd){
+    font-size: 20px;
+    color: #d4e3e9;
+}
+
+

@@ -1,0 +1,55 @@
+.mainframe{
+    background-image: url("../../Images/dark.jpg");
+    height: 100vh;
+    background-size: cover;
+    padding: 30px;
+    background-position: center;
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: aquamarine; */
+    justify-content: space-between;
+}
+.div1content{
+    margin-top: 130px;
+    margin-left: 100px;
+}
+.content > h1{
+    font-weight: bold;
+}
+.images{
+    /* background-color: aqua; */
+    padding-top: 15%;
+    /* padding-left: 15%; */
+    padding-right: 0;
+    align-items: flex-end;
+    width: 40%;
+}
+.images > img{
+    border-radius:50px;
+    height:90vh
+}
+.content{
+    color: aliceblue;
+    font-weight: bold;
+}
+.buttons{
+    margin-top: 80px;
+    display: flex;
+    gap: 10px;
+}
+.button1{
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    padding: 10px;
+}
+.button2{
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(244, 79, 42);
+    padding: 10px;
+}

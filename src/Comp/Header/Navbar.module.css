@@ -1,0 +1,56 @@
+.Navbar{
+    width: 95%;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: rgb(236, 240, 239);
+    position: fixed;
+    z-index: 999;
+    transition: 0.2s ease;
+}
+.notNavbar{
+    background-color: aliceblue;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    padding-left: 10px;
+    gap: 10px;
+}
+.image{
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.brandName{
+    margin: 5px 10px;
+}
+.right{
+    gap: 40px;
+    /* padding-left: 10%; */
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+.buttons h2{
+    padding: 0 6px;
+    border: none;
+    color: black;
+}
+
+.buttons h2:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    transition: ease-in 0.5s;
+    padding: 0 6px;
+}
+.image{
+    height: 8vh;
+}
+.image > img{
+    height: 70px;
+    width: 70px;
+}
